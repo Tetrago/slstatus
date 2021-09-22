@@ -68,6 +68,6 @@ static const struct arg args[] = {
   { separator, " ",             NULL },
   { run_command, "ﮮ %s",        "checkupdates | wc -l" },
   { separator, " | ",           NULL },
-	{ datetime, " %s",           "%a %B %e, %l:%m %p" },
+	{ datetime, " %s",           "%a %B %e, %l:%M %p" },
   { separator, " ",             NULL },
 };
